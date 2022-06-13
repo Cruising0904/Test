@@ -47,7 +47,7 @@ function q {
 }
 
 function power {
-	nvim $profile
+	nvim $env:userprofile\.config\PowerShell\user_profile.ps1
 }
 function vimrc {
   cd $home\appdata\local\nvim\
