@@ -28,9 +28,8 @@ function which ($command) {
 #######custom config###################
 # inputting local to move local folder
 
-# equivalent of which
-# set-Alias -Name which -Value Get-Command
 set-Alias -Name v -Value nvim
+
 function local{
 	Set-Location ~/AppData/Local
 }
